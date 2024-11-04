@@ -25,6 +25,7 @@ jobs:
         with:
           aws-access-key-id: ASIAQZGMN3KTTYV6Y3EV
           aws-secret-access-key: vPlHKnOzhO4XvShCS1/4r84DJtYIucIESeOD62X5
+          aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
           aws-region: ap-northeast-2
 
       - name: Login to Amazon ECR
